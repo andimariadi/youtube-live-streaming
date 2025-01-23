@@ -13,7 +13,6 @@ const ffmpegCommand = [
   '-re',
   '-i', video,
   '-stream_loop', '-1',
-  '-re',
   '-i', audio,
   '-vcodec', 'libx264',
   '-pix_fmt', 'yuvj420p',
